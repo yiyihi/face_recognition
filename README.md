@@ -8,19 +8,19 @@
 
 ## 1.注册登陆后点击：人脸识别云服务
 
-![image-20220602102448369](https://github.com/yiyihi/face_recognition/tree/main/img/1.png)
+![image-20220602102448369](img/1.png)
 
 ## 2.立即使用
 
-![image-20220602102636313](https://github.com/yiyihi/face_recognition/tree/main/img/2.png)
+![image-20220602102636313](img/2.png)
 
 ## 3.免费尝鲜领取后、创建应用
 
-![image-20220602102758488](https://github.com/yiyihi/face_recognition/tree/main/img/3.png)
+![image-20220602102758488](img/3.png)
 
 ## 4.拿到API Key 和Secret Key
 
-![image-20220602102947774](https://github.com/yiyihi/face_recognition/tree/main/img/4.png)
+![image-20220602102947774](img/4.png)
 
 # 二、通过API获取图片的颜值、年龄、性别信息
 
@@ -154,7 +154,7 @@ gcc test.c -I ./include -L ./lib -lcjson -lm
 
 ①先在目录中保存一张包含人脸的图片例如1.png
 
-![2](https://github.com/yiyihi/face_recognition/tree/main/img/6.png)
+![2](img/6.png)
 
 ②对图片进行Base64编码
 
@@ -166,7 +166,7 @@ gcc test.c -I ./include -L ./lib -lcjson -lm
 
 请求格式如下：
 
-![image-20220602153317880](https://github.com/yiyihi/face_recognition/tree/main/img/7.png)
+![image-20220602153317880](img/7.png)
 
 
 
@@ -346,7 +346,7 @@ void parse_face_info(char *faceJsonStr)
 
 最后效果如下：
 
-![image-20220602185134423](https://github.com/yiyihi/face_recognition/tree/main/img/8.png)
+![image-20220602185134423](img/8.png)
 
 **颜值挺高80.23！**
 
